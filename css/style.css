@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+}
+
+.canvas {
+  border: black solid 2px;
+  background-color: aquamarine;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Jogo-space {
+  display: flex;
+}
+
+.Jogo-space a {
+  padding: 5em;
+}
+
+.player1 {
+  color: #1f8fff;
+}
+
+.player2 {
+  color: #ff1f1f;
+}
